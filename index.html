@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday, My sweet disaster🎂</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="sam.css">
+</head>
+<body>
+
+<div class="sky" id="sky"><div class="moon" id="moon"></div></div>
+ <img src="images/sam1.jpg"alt="US"class="viona-photo">
+
+  <img src="images/sweet2.jpeg"alt ="US"class="kylian-photo">
+
+  <img src="images/sweet.jpeg"alt ="US"class="sam-photo">
+<div class="stage">
+
+  <div class="scene active" id="scene-intro">
+    <div class="eyebrow">A little something for you</div>
+    <div class="intro-row">
+      <img src="images/sam2.jpg"alt="US"class="intro-photo">
+    </div>
+    <div class="envelope-wrap" id="envelopeWrap" role="button" tabindex="0" aria-label="Open the envelope">
+      <div class="envelope" id="envelope">
+        <div class="letter">for my favorite person</div>
+        <div class="flap"></div>
+        <div class="seal">💌</div>
+      </div>
+    </div>
+    <div class="hint tap-pulse">tap the envelope to open it</div>
+  </div>
+
+  <div class="scene" id="scene-cake">
+    <div class="eyebrow">make a wish</div>
+    <h1 id="headline">Happy Birthday!</h1>
+    <p class="subtitle">One candle at a time isn't enough to celebrate you. Let's blow them out together.</p>
+    <div class="cake-wrap" id="cakeWrap" role="button" tabindex="0" aria-label="Blow out the candles">
+      <div class="candles" id="candles"></div>
+      <div class="cake">
+        <div class="tier1 tier" id="tier1"><div class="cherry"></div></div>
+        <div class="tier2 tier" id="tier2"></div>
+        <div class="plate"></div>
+      </div>
+    </div>
+    <div class="hint" id="cakeHint">🍹tap the candles to blow them out</div>
+  </div>
+
+  <div class="scene" id="scene-wish">
+    <div class="eyebrow">before the surprise</div>
+    <h1 style="font-size:clamp(2rem,6vw,3rem)">What's your wish?</h1>
+    <p class="subtitle">Type it below and send it up into the sky.</p>
+    <div class="wish-box">
+      <input id="wishInput" type="text" placeholder="I wish for..." maxlength="60">
+      <button class="btn" id="sendWish">Send it up✨</button>
+      <button class="btn ghost" id="skipWish">skip</button>
+    </div>
+  </div>
+
+  <div class="scene" id="scene-final">
+    <div class="eyebrow">from me, to you</div>
+    <h1 style="font-size:clamp(2.2rem,7vw,3.4rem)">Happy Birthday,Kipenzi!!</h1>
+    <div class="message-card">
+      <img src="images/sam2.jpg"
+      alt="Kylian" class="memory-photo">
+      <p id="messageText"></p>
+      <span class="signature" id="signature">— always yours</span>
+      <span class="signature" id="signature">@Samuel Muniu</span>
+    </div>
+    <div class="gift" id="gift">🎁</div>
+    <div class="gift-note" id="giftNote"></div>
+    <footer>made with love, for you💌</footer>
+  </div>
+
+</div>
+
+<script src="sam.js"></script>
+</body>
+</html>
