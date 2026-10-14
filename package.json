@@ -1,0 +1,25 @@
+{
+  "name": "bd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sam.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vionamkyalo/BDPROJECT2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vionamkyalo/BDPROJECT2/issues"
+  },
+  "homepage": "https://github.com/vionamkyalo/BDPROJECT2#readme",
+  "devDependencies": {
+    "vite": "^8.3.4"
+  }
+}

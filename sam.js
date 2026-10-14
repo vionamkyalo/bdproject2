@@ -1,4 +1,4 @@
-const PARTNER_NAME = "Sweet Disaster";
+const PARTNER_NAME = "Smile Keeper";
   const PARTNER_MESSAGE = "Wishing a spectacular birthday to the one who makes everything feel a little less scary just by existing. Love you to bits, and don't count the candles, just enjoy the glow!🎁 .Cheers to another year of keeping each other sane in this crazy world! 🍻";
   const SIGNATURE = "— always yours";
   const GIFT_NOTES = [
